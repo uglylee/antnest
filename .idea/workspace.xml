@@ -6,7 +6,10 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42f866be-91c0-4c8f-9630-40407ac8af6a" name="Default Changelist" comment="" />
+    <list default="true" id="42f866be-91c0-4c8f-9630-40407ac8af6a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/web/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/web/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/Route.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/Route.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +44,7 @@
   <component name="ProjectId" id="1ZmrKpZzJtSnXFwUvDWJwbM6m3u" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -173,7 +177,7 @@
       <workItem from="1585583400352" duration="2873000" />
       <workItem from="1585722962902" duration="346000" />
       <workItem from="1585790554994" duration="1879000" />
-      <workItem from="1585794978689" duration="1609000" />
+      <workItem from="1585794978689" duration="8556000" />
     </task>
     <servers />
   </component>

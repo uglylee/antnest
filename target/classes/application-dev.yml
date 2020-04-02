@@ -1,0 +1,71 @@
+#spring:
+#  thymeleaf:
+#    prefix:
+#      classpath:/templates/:
+spring:
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+  resources:
+    static-locations:
+      classpath:/templates/,
+      classpath:/static/,
+  #  mvc:
+  #    static-path-pattern:
+  #      /assets/**,
+
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://10.177.177.53:13778/antnest?autoReconnect=true&useUnicode=true&characterEncoding=UTF-8&useSSL=false&zeroDateTimeBehavior=convertToNull
+    username: root
+    password: 123456
+  jpa:
+    database: mysql
+    show-sql: false
+  jmx:
+    default-domain: ${random.int}
+  data:
+    mongodb:
+      #      web-data:
+      #      uri: mongodb://ant:ant@2019@10.177.177.34:27077/ant_nest
+      database: ant_nest
+      host: 10.177.177.53
+      port: 13777
+  #      username:
+  #      password:
+  #      taxonomy-data:
+  #        database: taxonomy
+  #        host: mongo-node-dev
+  #        port: 27017
+  #        username: bdpwww
+  #        password: node@2018
+  mail:
+    default-encoding: UTF-8
+    host: mail.cstnet.cn
+    username: bigdata.node@picb.ac.cn
+    password: node.picb
+#  rabbitmq:
+#    host: 111.231.141.159
+#    port: 5672
+#    username: guest
+#    password: guest
+#    listener:
+#      simple:
+#        acknowledge-mode: manual
+server:
+  servlet:
+    context-path: /antnest
+#    session:
+#      timeout: 2s
+
+#app:
+#  data-home: /picb/bigdata/node
+#  fastqc-analysis-home: /picb/bigdata/nodeanalysis
+#  ifstat-command: test
+#  email:
+#    template-dir: /picb/bigdata/node/email_template
+#  transfer:
+#    data-read-dir: /picb/bigdata/node
+#    data-write-dir: /picb/bigdata/node
+#    data-analyse-dir: /picb/bigdata/node
+#    data-rsync-max-wait-minutes: 4320

@@ -1,0 +1,10 @@
+$ git clone https://github.com/LANIF-UI/dva-boot-admin.git
+$ cd dva-boot-admin
+// 安装依赖
+$ yarn
+// 启动
+$ yarn start
+// 打包
+$ yarn build
+// 打包带图形化分析
+$ yarn build --analyze

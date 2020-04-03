@@ -7,6 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="42f866be-91c0-4c8f-9630-40407ac8af6a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/web/src/page/data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/page/require.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/page/task.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/web/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/web/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/src/Route.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/Route.js" afterDir="false" />
@@ -182,7 +185,7 @@
       <workItem from="1585583400352" duration="2873000" />
       <workItem from="1585722962902" duration="346000" />
       <workItem from="1585790554994" duration="1879000" />
-      <workItem from="1585794978689" duration="13627000" />
+      <workItem from="1585794978689" duration="14201000" />
     </task>
     <servers />
   </component>
